@@ -23,7 +23,7 @@ description: Engineer
 
 # List of links in the navigation bar
 navbar-links:
-  CV: "cv_link.html"
+  CV: "<a href="https://github.com/Varun-GP/Varun-GP.github.io/raw/master/CV_Varun.pdf" target="_blank">PDF.</a>"
   # Blog: "blog"
   Interests: "notes"
 
