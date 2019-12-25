@@ -689,26 +689,26 @@ div#myTabContent {
     -moz-box-shadow: 0 30px 0 inset;
     box-shadow: 0 30px 0 inset;
 }
-a.facebook i{
-	background: url(../images/img-sp.png) no-repeat 3px -157px;
+a.linkedin i{
+	background: url(../images/linkedin.png) no-repeat 3px -157px;
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
 	-webkit-transition: 0.5s ease-in;
     -moz-transition: 0.5s ease-in;
     -o-transition: 0.5s ease-in;
     transition: 0.5s ease-in;
 	-ms-transition: 0.5s ease-in;
 }
-a.facebook:hover i{
-	background:url(../images/img-sp.png) no-repeat 3px -198px;
+a.linkedin:hover i{
+	background:url(../images/linkedin.png) no-repeat 3px -198px;
     display: block;
 }
 a.github i{
 	background:url(../images/github.png) no-repeat 3px -157px;
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
 	-webkit-transition: 0.5s ease-in;
     -moz-transition: 0.5s ease-in;
     -o-transition: 0.5s ease-in;
