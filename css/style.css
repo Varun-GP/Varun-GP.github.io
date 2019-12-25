@@ -705,7 +705,7 @@ a.facebook:hover i{
     display: block;
 }
 a.github i{
-	background:url(../images/github.png);
+	background:url(../images/github.png) no-repeat 3px -157px;
     display: block;
     width: 30px;
     height: 30px;
@@ -716,7 +716,7 @@ a.github i{
 	-ms-transition: 0.5s ease-in;
 }
 a.github:hover i{
-	background:url(../images/github.png);
+	background:url(../images/github.png) no-repeat 3px -198px;
     display: block;
 }
 a.g i{
