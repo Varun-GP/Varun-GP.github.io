@@ -704,8 +704,8 @@ a.facebook:hover i{
 	background:url(../images/img-sp.png) no-repeat 3px -198px;
     display: block;
 }
-a.twitter i{
-	background:url(../images/img-sp.png) no-repeat -29px -158px;
+a.github i{
+	background:url(../images/github.png);
     display: block;
     width: 30px;
     height: 30px;
@@ -715,8 +715,8 @@ a.twitter i{
     transition: 0.5s ease-in;
 	-ms-transition: 0.5s ease-in;
 }
-a.twitter:hover i{
-	background:url(../images/img-sp.png) no-repeat -29px -198px;
+a.github:hover i{
+	background:url(../images/github.png);
     display: block;
 }
 a.g i{
