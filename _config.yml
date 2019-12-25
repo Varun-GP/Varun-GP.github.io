@@ -23,7 +23,7 @@ description: Engineer
 
 # List of links in the navigation bar
 navbar-links:
-  CV: "CV_Varun.pdf"
+  CV: "cv_link.html"
   # Blog: "blog"
   Interests: "notes"
 
