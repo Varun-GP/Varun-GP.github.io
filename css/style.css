@@ -39,8 +39,8 @@ body a:hover{
     font-size: 1em;
     text-transform: uppercase;
     line-height: .9em;
-    letter-spacing: 5px;
-    border: 1px solid;
+    letter-spacing: 4px;
+    border: 2px groove;
 	margin:0.44em 0 0;
 }
 .navbar-default .navbar-brand {
