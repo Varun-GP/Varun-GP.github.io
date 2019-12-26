@@ -621,18 +621,18 @@ div#myTabContent {
 /*-- footer --*/
 .footer{
 	padding:4em 0;
-	background:#fff;
+	background:#000;
 }
 .footer-grid h3{
 	font-size:1.5em;
-	color:#fff;
+	color:#000;
 	padding-bottom:.7em;
 	position:relative;
 	margin-bottom:1em;
 }
 .footer-grid h3:after{
 	content:'';
-	background:#fff;
+	background:#000;
 	width:20%;
 	height:2px;
 	position:absolute;
@@ -655,7 +655,7 @@ div#myTabContent {
     display: inline-block;
 }
 .model-8 a {
-    background: #FFF;
+    background: #000;
 }
 .model-8 a{
     color:#C28F44;
