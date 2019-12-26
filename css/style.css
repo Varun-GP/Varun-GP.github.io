@@ -625,14 +625,14 @@ div#myTabContent {
 }
 .footer-grid h3{
 	font-size:1.5em;
-	color:#000;
+	color:#fff;
 	padding-bottom:.7em;
 	position:relative;
 	margin-bottom:1em;
 }
 .footer-grid h3:after{
 	content:'';
-	background:#000;
+	background:#fff;
 	width:20%;
 	height:2px;
 	position:absolute;
@@ -640,7 +640,7 @@ div#myTabContent {
 	left:0%;
 }
 .footer-grid p{
-	color:#000;
+	color:#fff;
 	line-height:1.8em;
 	margin:0 0 1em;
 }
