@@ -1136,11 +1136,11 @@ img {
   display: inline-block;
   max-width: 100%;
   height: auto;
-  padding: 4px;
+  padding: 5px;
   line-height: 1.42857143;
   background-color: #fff;
   border: 2px solid #6f1212;
-  border-radius: 5px;
+  border-radius: 7px;
   -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
