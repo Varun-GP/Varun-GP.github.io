@@ -305,7 +305,7 @@ body a:hover{
 }
 .services h3,.testimonials h3,.about h3,.team h3,.pricing-plans h3,h3.title,.gallery h3,.mail h3{
 	font-size:2.5em;
-	color:#fff;
+	color:#000;
 	text-align:center;
 	position:relative;
 	padding-bottom:.5em;
@@ -313,7 +313,7 @@ body a:hover{
 }
 .services h3:after,.testimonials h3:after,.about h3:after,.gallery h3:after,.mail h3:after,.team h3:after,.pricing-plans h3:after,h3.title:after{
 	content: '';
-    background: #000;
+    background: #fff;
     width: 30%;
     height: 1px;
     position: absolute;
