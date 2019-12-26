@@ -44,10 +44,10 @@ body a:hover{
 	margin:0.44em 0 0;
 }
 .navbar-default .navbar-brand {
-    color: #fff;
+    color: #000;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #fff;
+    color: #000;
 }
 .navbar-default .navbar-nav > li > a {
     color: #000;
@@ -621,18 +621,18 @@ div#myTabContent {
 /*-- footer --*/
 .footer{
 	padding:4em 0;
-	background:#000;
+	background:#B30000;
 }
 .footer-grid h3{
 	font-size:1.5em;
-	color:#fff;
+	color:#000;
 	padding-bottom:.7em;
 	position:relative;
 	margin-bottom:1em;
 }
 .footer-grid h3:after{
 	content:'';
-	background:#fff;
+	background:#000;
 	width:20%;
 	height:2px;
 	position:absolute;
@@ -640,7 +640,7 @@ div#myTabContent {
 	left:0%;
 }
 .footer-grid p{
-	color:#fff;
+	color:#000;
 	line-height:1.8em;
 	margin:0 0 1em;
 }
