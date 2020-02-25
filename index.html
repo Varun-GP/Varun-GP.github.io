@@ -126,43 +126,80 @@ I pitch in to help projects and people, if it works I am lucky to see their happ
         </div>
     </div>
 </div>
-<!-- //about -->
-<!-- footer -->
-<div class="footer"><a name="CONTACT"></a>
-		<div class="container">
-			<div class="footer-grids">
-				<div class="col-md-4 footer-grid animated wow slideInLeft" data-wow-delay="0s">
-                    <h3>Contact</h3>
-                    <p>Email: varun0496@gmail.com</p>
-                    <p>Phone: +91-8762788360</p>
-					<div class="social">
-						<ul class="social-nav model-8">
-							<li><a href="https://www.linkedin.com/in/varun-ganjigunte-prakash" class="linkedin"><i></i></a></li>
-							<li><a href="https://github.com/Varun-GP" class="github"><i> </i></a></li>
-						</ul>
-					</div>
-				</div>
-     
-                <div class="clearfix"> </div>
-			</div>
-			<div class="footer-grids1">
-				<div class="footer-grids1-left animated wow slideInLeft">
-                    <ul>
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="research.html">Research</a></li>
-						<li><iframe src="http://docs.google.com/gview?url=https://github.com/Varun-GP/Varun-GP.github.io/raw/master/CV_Varun.pdf&embedded=true" 
-style="width:600px; height:500px;" frameborder="0"></iframe></li>
-						<li><a href="publications.html">Publications</a></li>
-						<li><a href="#CONTACT">Contact</a></li>
-					</ul>
-				</div>
-				<div class="footer-grids1-right">
-					<p class="animated wow slideInRight" data-wow-delay="0s">Design by <a href="http://w3layouts.com/">W3layouts</a></p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+  <!-- Contact Us Section -->
+    <section class="Material-contact-section section-padding section-dark">
+      <div class="container">
+          <div class="row">
+              <!-- Section Titile -->
+              <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+                  <h1 class="section-title">Love to Hear From You</h1>
+              </div>
+          </div>
+          <div class="row">
+              <!-- Section Titile -->
+              <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content.</p>
+
+                <div class="find-widget">
+                 Company:  <a href="https://hostriver.ro">HostRiver</a>
+                </div>
+                <div class="find-widget">
+                 Address: <a href="#">4435 Berkshire Circle Knoxville</a>
+                </div>
+                <div class="find-widget">
+                  Phone:  <a href="#">+ 879-890-9767</a>
+                </div>
+                
+                <div class="find-widget">
+                  Website:  <a href="https://uny.ro">www.uny.ro</a>
+                </div>
+                <div class="find-widget">
+                   Program: <a href="#">Mon to Sat: 09:30 AM - 10.30 PM</a>
+                </div>
+              </div>
+              <!-- contact form -->
+              <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
+                  <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                      <!-- Name -->
+                      <div class="form-group label-floating">
+                        <label class="control-label" for="name">Name</label>
+                        <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <!-- email -->
+                      <div class="form-group label-floating">
+                        <label class="control-label" for="email">Email</label>
+                        <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <!-- Subject -->
+                      <div class="form-group label-floating">
+                        <label class="control-label">Subject</label>
+                        <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Please enter your message subject">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <!-- Message -->
+                      <div class="form-group label-floating">
+                          <label for="message" class="control-label">Message</label>
+                          <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
+                          <div class="help-block with-errors"></div>
+                      </div>
+                      <!-- Form Submit -->
+                      <div class="form-submit mt-5">
+                          <button class="btn btn-common" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
+                          <div id="msgSubmit" class="h3 text-center hidden"></div>
+                          <div class="clearfix"></div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+    </section>
 <!-- //footer -->
 <!-- for bootstrap working -->
 	<script src="js/bootstrap.js"></script>
