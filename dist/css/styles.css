@@ -4068,8 +4068,8 @@ textarea.form-control-lg {
 }
 
 .navbar-text {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .navbar-collapse {
@@ -11340,7 +11340,7 @@ p.lead {
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 17rem;
+    width: 18.2rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
