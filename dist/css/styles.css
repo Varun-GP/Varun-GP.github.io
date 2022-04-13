@@ -110,7 +110,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.725rem + 5.7vw);
+  font-size: calc(0.725rem + 5.7vw);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -119,7 +119,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: calc(1.475rem + 2.7vw);
+  font-size: calc(0.475rem + 2.7vw);
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -128,7 +128,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(0.325rem + 0.9vw);
 }
 @media (min-width: 1200px) {
   h3, .h3 {
@@ -137,7 +137,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(0.275rem + 0.3vw);
 }
 @media (min-width: 1200px) {
   h4, .h4 {
