@@ -119,7 +119,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: calc(1.5rem + 2.7vw);
+  font-size: calc(1.0rem + 2.7vw);
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -137,7 +137,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: calc(1.5rem + 0.3vw);
+  font-size: calc(1.0rem + 0.3vw);
 }
 @media (min-width: 1200px) {
   h4, .h4 {
@@ -11314,7 +11314,7 @@ p.lead {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.0rem;
 }
 
 #sideNav {
