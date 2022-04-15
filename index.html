@@ -1,5 +1,473 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<title>Redirecting to https://varun-gp.github.io/dist/#about</title>
-<meta http-equiv="refresh" content="0; URL=https://varun-gp.github.io/dist/#about">
-<link rel="canonical" href="https://varun-gp.github.io/dist/#about">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Varun's Portfolio
+</title>
+<meta name="viewport" content="width=device-width">
+<style>
+
+/* this is just the better box model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* minimalist reset */
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 1rem;
+}
+
+/* typography */
+body {
+	font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", Consolas, "Liberation Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro","Droid Sans Mono", "Lucida Console", "Courier New", monospace;
+	line-height: 1.5;
+	background-color: black;
+}
+
+/* no text overflow */
+p, h1, h2, h3, h4, h5, h6 {
+	overflow-wrap: break-word;
+}
+
+/* media should not be inline, but be blocks */
+/* media shouldn't break out of their container */
+img, picture, video, canvas, svg {
+	display: block;
+    max-width: 100%;
+}
+
+/* remove gap between table cells */
+table {
+	border-collapse: collapse;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover, a:focus {
+	color: black;
+}
+
+body {
+	padding: 2rem;
+	margin: 0 auto;
+	max-width: 50rem;
+}
+
+@media (max-width: 600px)  {
+	body {
+		padding: 0.5rem;
+	}
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+h2 {
+	border-top: solid 0.1rem;
+	padding-top: 2rem;
+}
+
+h2 a {
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+h3 {
+	font-style: italic;
+	padding-top: 2rem;
+}
+
+h4 {
+	font-weight: 400;
+	filter: opacity(0.5);
+}
+
+p, img {
+	padding-top: 1rem;
+}
+
+li {
+	list-style-type: square;
+	margin-left: 2rem;
+}
+
+section {
+	padding-bottom: 2rem;
+}
+
+table, th, td {
+	border: 0.1rem solid;
+	padding: 0.1rem 0.5rem;
+}
+
+table {
+	margin: 1rem 0;
+	line-height: 1.2;
+}
+
+footer {
+	padding-top: 5rem;
+	text-align: right;
+	color: rgb(255, 253, 208);
+}
+footer a:hover, footer a:focus {
+	background-color: white;
+}
+
+#name {
+	color: rgb(255, 120, 100);
+}
+
+#about {
+	color: rgb(255, 253, 208);
+}
+#about a:hover, #about a:focus {
+	background-color: rgb(255, 253, 208);
+}
+
+#publications {
+	color: rgb(255, 192, 0);
+}
+#publications a:hover, #publications a:focus {
+	background-color: rgb(255, 192, 0);
+}
+
+#interests {
+	color: rgb(168, 242, 154);
+}
+#interests a:hover, #interests a:focus {
+	background-color: rgb(168, 242, 154);
+}
+
+#bio {
+	color: rgb(150, 173, 252);
+}
+#bio a:hover, #bio a:focus  {
+	background-color: rgb(150, 173, 252);
+}
+
+#projects {
+	color: rgb(185, 135, 220);
+}
+#projects a:hover, #projects a:focus  {
+	background-color: rgb(185, 135, 220);
+}
+
+.rotate-text {
+	transform: rotate(180deg);
+	writing-mode: vertical-rl;
+	text-align: left;
+}
+
+
+th {
+	vertical-align: bottom;
+}
+
+#publications table, #publications th, #publications td {
+	border: none;
+	padding: 0rem 0.5rem;
+}
+#publications th {
+	border-bottom: 0.1rem solid;
+	padding: 0.5rem 0.1rem;
+}
+
+#publications td:nth-child(2),
+#publications td:nth-child(3),
+#publications td:nth-child(4),
+#publications td:nth-child(5),
+#publications td:nth-child(6),
+#publications td:nth-child(7) {
+	text-align: end;
+}
+
+#stipend-table th:nth-child(2),
+#stipend-table th:nth-child(3),
+#stipend-table td:nth-child(2),
+#stipend-table td:nth-child(3) {
+	text-align: end;
+}
+
+.tables th:nth-child(2),
+.tables th:nth-child(3),
+.tables td:nth-child(2),
+.tables td:nth-child(3) {
+	text-align: justify-all;
+}
+
+#projects td:nth-child(2) {
+	text-align: end;
+}
+
+.faded {
+	filter: opacity(0.5);
+}
+
+.image-filter {
+	filter: sepia(100%) hue-rotate(190deg) saturate(300%);
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.imageColumn {
+   float: left;
+   width: 15%;
+   padding: 5px;
+}
+
+.imageColumnCenter {
+   float: center;
+   width: 100%;
+   padding: 15px;
+}
+
+.projectPic {
+   float: left;
+   width: 100%;
+   padding: 5px;
+}
+
+.projectColumn {
+   float: right;
+   width: 50%;
+   padding: 30px;
+}
+
+.textColumn {
+   float: left;
+   width: 50%;
+   padding: 10px;
+}
+
+.cvColumn {
+   float: center;
+   width: 80%;
+   padding: 40px;
+}
+
+h1{
+   text-align: center;
+}
+</style>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1011.0" data-gr-ext-installed="">
+
+<section id="name">
+<h1><img src="./data/Varun.jpg" style="border-radius:50%"  width= 100px height= auto max-width=100%>Varun Ganjigunte Prakash</h1>
+
+
+<div class="alignRow">
+<div class="imageColumnCenter">
+<img src="./data/location.png"  width= 40px height= auto max-width=100%>BENGALURU, INDIA
+</div>
+</div>
+
+</section>
+
+<section id="about">
+
+<h2><a>About Me</a></h2>
+<p>Hi! I am a Computer Vision engineer and Robotics practitioner. I am gulping the concepts to learn, to fail, and then to make ideas work by experience since I believe that practice brings real knowledge. Robots fascinate me and I enjoy building them. Building goal-oriented machines that can sense, plan, act safely, and help people is my long-term life goal. I also like to work on agricultural robotic systems for helping our farmers, making intelligent machines as accessible and affordable as cell phones. I am self-driven and chasing my vision. I pitch in to help projects and people, if it works I am lucky to see their happy faces.</p>
+<p>I completed my undergrad at Sri Jayachamarajendra College of Engineering at Mysuru. I am passionate about solving problems in the intersection of Computer Vision and Robotics. I have spent time working on computer vision and robotics challenges.
+</section>
+
+<section id="bio">
+<h2><a>My Brief Bio</a></h2>
+
+<table class="tables">
+<thead ><tr><th width="40%">
+Machine Learning Engineer - Computer Vision</th>
+<th width="35%"><a href="https://cogniable.tech/" target="_blank">CogniAble</a></th>
+<th width="25%">03.2021-current</th>
+</tr></thead>
+<thead><tr><th width="25%">
+Engineer</th>
+<th width="25%"><a target="_blank" href="https://www.ltts.com/">L&T Technology Services Limited</a></th>
+<th width="25%">06.2018-03.2021</th>
+</tr></thead>
+<thead><tr><th width="25%">
+Computer Vision Intern</th>
+<th width="25%"><a target="_blank" href="https://www.skylarkdrones.com/">Skylark Drones</a></th>
+<th width="25%">07.2018-10.2018</th>
+</tr></thead>
+<thead><tr><th width="25%">
+Embedded Systems Intern</th>
+<th width="25%"><a target="_blank" href="https://logichive.in/">Logichive Solutions Private Limited</a></th>
+<th width="25%">06.2016-12.2016</th>
+</tr></thead>
+
+</tbody></table>
+
+
+<div class="alignRow">
+<div class="imageColumn">
+<a href="mailto:varun0496@gmail.com" target="_blank"><img src="./data/gmail.svg"  width= 30px height= auto max-width=100%></a>
+</div>
+<div class="imageColumn">
+<a href="https://www.linkedin.com/in/varun-ganjigunte-prakash" target="_blank"><img src="./data/linkedin.png"  width= 30px height= auto max-width=100%></a>
+</div>
+<div class="imageColumn">
+<a href="https://github.com/Varun-GP" target="_blank"><img src="./data/github.svg" width= 30px height= auto max-width=100%></a>
+</div>
+<div class="imageColumn">
+<a href="https://scholar.google.com/citations?user=KGs0XzEAAAAJ&hl=en" target="_blank"><img src="./data/scholar.svg" width= 30px height= auto max-width=100%></a>
+</div>
+</div>
+<div class="imageColumn">
+<a href="https://twitter.com/VarunGP2" target="_blank"><img src="./data/twitter.png" width= 30px height= auto max-width=100%></a>
+</div>
+</div>
+<br>
+<br>
+
+</section>
+
+<section id="projects">
+<h2><a>Projects</a></h2>
+
+</p><p>
+<div class="alignRow">
+	<div class="projectPic">
+		<a><img src="./data/dummy.jpg" width="250" height="auto" style="float:left"></a>
+
+<div class="projectColumn">
+		<a>6–DOF pose estimation, planning and control</a>
+</div>
+		</div>
+</div>
+
+<p>
+<em>Aim is to design, simulate in ROS and testing on custom built manipulator for 3D object grasp with Deep Learning</em><br>
+<em>Platform : ROS, Gazebo, TensorFlow </em>
+</p>
+
+</p><p>
+<div class="alignRow">
+	<div class="projectPic">
+		<a><img src="./data/cash_pic.jpg" width="250" height="auto" style="float:left"></a>
+
+<div class="projectColumn">
+		<a>Indian currency recognition application and food classifier application</a>
+</div>
+		</div>
+</div>
+
+<p>
+ <em>1) Demonstration of Cash Recognition mobile application for Indian currencies</em><br>
+   <em>2) A food classifier mobile application which identifies and discovers related information about the food such as nearest restaurants where it is available, the item cost etc., on the click of a photo. Developed for 20 most common Indian food items</em><br>
+   <em>Platform : TensorFlow (Keras), Python, Android</em><br>
+</p>
+
+</p><p>
+<div class="alignRow">
+	<div class="projectPic">
+		<a><img src="./data/dsbot.png" width="250" height="auto" style="float:left"></a>
+
+<div class="projectColumn">
+		<a>Dexterous Service Robot</a>
+</div>
+		</div>
+</div>
+
+
+<p>
+<em>The purpose of our project is to build a home assistant robot to assist differently-able and aged persons. The proposed robot helps such people by performing some of the common tasks involved in our daily life through human-machine cognitive learning. A 5 DOF Dexter ER-2 arm mounted on a vehicle is operated by voice commands to selectively search and deliver the article required by the user. Simulation is also performed to check the feasibility of the planned path for arm's joints and to avoid a collision in a dynamic 3D environment </em><br>
+<em>Platform : ROS, Python </em>
+</p>
+
+</p><p>
+<div class="alignRow">
+	<div class="projectPic">
+		<a><img src="./data/sort.png" width="250" height="auto" style="float:left"></a>
+
+<div class="projectColumn">
+		<a>Colour based object sorting using DEXTER ER-2</a>
+</div>
+		</div>
+</div>
+
+<p>
+<em>The aim of this project was to sort objects based on color by using a heavy duty robotic arm (DEXTER ER-2). The algorithm used Image Processing and Inverse Kinematics concepts. Colored objects of different sizes were also sorted </em><br>
+<em>Platform : MATLAB </em>
+</p>
+
+</p><p>
+<div class="alignRow">
+	<div class="projectPic">
+		<a><img src="./data/dummy.jpg" width="250" height="auto" style="float:left"></a>
+
+<div class="projectColumn">
+		<a>Autonomous object delivery robot</a>
+</div>
+		</div>
+</div>
+
+<p>
+<em>The project aims at selective object delivery based on shape, size, and color of the objects. Objects and surrounding obstacles were analyzed by using Image Processing concepts programmed in OpenCV-Python. Fire Bird V robot was navigated using XBee wireless communication. A robotic gripper has been designed to pick and deliver objects. The project helps to understand and improve the autonomous delivery robot system which is efficient and self-reliant </em><br>
+<em>Platform : AVR Studio and Python </em>
+</p>
+
+</section>
+
+<section id="interests">
+<h2><a>Interests</a></h2>
+
+</p><ul>
+	<li><a>Computer Vision</a></li>
+</ul>
+</p><ul>
+	<li><a>Robotic Manipulation</a></li>
+</ul>
+</p><ul>
+	<li><a>Autonomous Mobile Robots</a></li>
+</ul>
+</p><ul>
+	<li><a>Deep Learning</a></li>
+</ul>
+</p><ul>
+	<li><a>Multi-Task Deep Reinforcement Learning</a></li>
+</ul>
+</p><ul>
+	<li><a>Multi-Task Deep Reinforcement Learning</a></li>
+</ul>
+</p><ul>
+	<li><a>Robotic System Design</a></li>
+</ul>
+</p><ul>
+	<li><a>Control Theory</a></li>
+</ul>
+</p><ul>
+	<li><a>Machine Learning</a></li>
+</ul>
+
+</section>
+
+
+<section id="publications">
+	<h2><a>Publications</a></h2>
+
+</p><ul>
+	<li><a>Autonomous Service Robot (AIR 2019: Proceedings of the Advances in Robotics 2019)</a> [<a href="https://dl.acm.org/doi/10.1145/3352593.3352626" target="_blank">paper</a>]</li>
+</ul>
+</section>
+
+<section id="about">
+	<h2><a></a></h2>
+<p>Please refer to my CV for more details,</p>
+<div class="alignRow">
+	<div class="imageColumn">
+<a><img src="./data/cv.png" width=50px height=auto max-width=50%></a>
+</div>
+<div class="alignRow">
+	<div class="cvColumn">
+<a class="nav-link js-scroll-trigger" onclick="window.open(this.href); return false;" href="./data/CV_Varun_November2021.pdf" onkeypress="window.open(this.href); return false;">[CV]</a>
+</div>
+</div>
