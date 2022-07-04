@@ -147,18 +147,21 @@ footer a:hover, footer a:focus {
 	color: rgb(255, 253, 208);
 }
 #about a:hover, #about a:focus {
-	background-color: rgb(255, 253, 208);
+	background-color: rgb(150, 173, 252);
 }
 
 #publications {
-	color: rgb(255, 192, 0);
+	#color: rgb(255, 192, 0);
+	color: rgb(255, 253, 208)
 }
 #publications a:hover, #publications a:focus {
-	background-color: rgb(255, 192, 0);
+	#background-color: rgb(255, 192, 0);
+	color: rgb(255, 253, 208)
 }
 
 #interests {
-	color: rgb(168, 242, 154);
+	#color: rgb(168, 242, 154);
+	color: rgb(255, 253, 208)
 }
 #interests a:hover, #interests a:focus {
 	background-color: rgb(168, 242, 154);
@@ -168,7 +171,8 @@ footer a:hover, footer a:focus {
 }
 
 #bio {
-	color: rgb(150, 173, 252);
+	#color: rgb(150, 173, 252);
+	color: rgb(255, 253, 208)
 }
 #bio a:hover, #bio a:focus  {
 	background-color: rgb(150, 173, 252);
@@ -844,7 +848,7 @@ footer .footerNote {
   text-align: center;
   font-weight: 800;
   font-style: Roboto Mono;
-  font-size: 20px;
+  font-size: 20px; color: white;
 }
 .projectColumn {
    float: right;
@@ -871,7 +875,16 @@ h1{
 </head>
 
 <body data-new-gr-c-s-check-loaded="14.1011.0" data-gr-ext-installed="">
+<nav>
+	<p style="text-align:center">
+    <a href="#about" style="background-color:rgb(150, 173, 252,0.2); font-size: 20px; color: white; text-decoration: none;">About</a>&ensp;
 
+    <a href="#bio" style="background-color:rgb(150, 173, 252,0.2); font-size: 20px; color: white; text-decoration: none;">Bio</a>&ensp;
+    <a href="#projects" style="background-color:rgb(150, 173, 252,0.2); font-size: 20px; color: white; text-decoration: none;">Projects</a>&ensp;
+    <a href="#publications" style="background-color:rgb(150, 173, 252,0.2); font-size: 20px; color: white; text-decoration: none;">Publications</a>&ensp;
+    <a href="#cv" style="background-color:rgb(150, 173, 252,0.2); font-size: 20px; color: white; text-decoration: none;">CV</a>
+</p>
+</nav>
 <section id="name">
 <h1><img src="./data/Varun.jpg" style="border-radius:50%"  width= 100px height= auto max-width=100%>Varun Ganjigunte Prakash</h1>
 
@@ -911,12 +924,14 @@ h1{
 <br>
 <section id="about">
 
+
+
 <h2><a>About Me</a></h2>
 <p>Hi! I am a Computer Vision engineer and Robotics practitioner. I am gulping down the concepts to learn, to fail, and then to make ideas work by experience since I believe that practice brings real knowledge. Robots fascinate me, and I enjoy building them. Building goal-oriented machines that can sense, plan, act safely, and help people is my long-term life goal. I also like to work on agricultural robotic systems to help our farmers, making intelligent machines as accessible and affordable as cell phones. I am self-driven and chasing my vision. I pitch in to help projects and people. If it works, I am lucky to see their happy faces.</p>
 <p>I completed my undergrad at Sri Jayachamarajendra College of Engineering in Mysuru. I am passionate about solving problems at the intersection of Computer Vision and Robotics. I have spent time working on computer vision and robotics challenges.</p>
 </section>
 
-<section id="about">
+<section id="bio">
 <h2><a>My Brief Bio</a></h2>
 
 <table class="tables">
@@ -950,7 +965,8 @@ Embedded Systems Intern</th>
   <!-- Contact details -->
   
   <!-- Previous experience details -->
-  
+ <section id="projects"></section>
+ 
   <section class="section2">
   <h2 class="sectionTitle"><a>Projects</a></h2>
       <hr class="sectionTitleRule">
@@ -1106,7 +1122,7 @@ Embedded Systems Intern</th>
 </section>
 
 
-<section id="about">
+<section id="publications">
 	<h2><a>Publications</a></h2>
 
 </p><ul>
@@ -1114,7 +1130,7 @@ Embedded Systems Intern</th>
 </ul>
 </section>      
 
-<section id="about">
+<section id="cv">
 	<h2><a></a></h2>
 <p>Please refer to my CV for more details,</p>
 <div class="alignRow">
@@ -1126,5 +1142,4 @@ Embedded Systems Intern</th>
 <a class="nav-link js-scroll-trigger" onclick="window.open(this.href); return false;" href="./data/CV_Varun_November2021.pdf" onkeypress="window.open(this.href); return false;">[CV]</a>
 </div>
 </div>
-
 
