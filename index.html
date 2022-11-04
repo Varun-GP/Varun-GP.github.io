@@ -138,7 +138,161 @@ footer {
 footer a:hover, footer a:focus {
 	background-color: black;
 }
+gin: {
+      top: .8rem;
+      bottom: .5rem;
+    }
+    font: {
+      weight: 200;
+      size: 1.6em;
+    }
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    @media (min-width: 62em) {
+      font-size: 1.9em;
+      letter-spacing: 0.2rem;
+    }
+  }
+  h2 {
+    font: {
+      size: 1.1em;
+      weight: 400;
+    }
+    color: #cfd7de;
+    max-width: 30rem;
+    margin: auto;
+  }
+}
 
+div.item {
+  display: flex;
+  flex: auto;
+  overflow-y: auto;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+#timeline {
+  position: relative;
+  display: table; //*For Firefox
+  height: 100%;
+  margin: {
+    left: auto;
+    right: auto;
+    top: 5rem;
+  }
+  div {
+    &:after {
+      content: '';
+      width: 2px;
+      position: absolute;
+      top: .5rem;
+      bottom: 0rem;
+      left: 60px;
+      z-index: 1;
+      background: #C5C5C5;
+    }
+  }
+  h3 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5rem;
+    color: #888;
+    margin: 0;
+    font: {
+      size: 1em;
+      weight: 400;
+    }
+    @media (min-width: 62em) {
+      font-size: 1.1em;
+    }
+  }
+  section.year {
+  position: relative;
+  &:first-child section{
+    margin-top: -1.3em;
+    padding-bottom: 0px;
+  }
+  section {
+    position: relative;
+    padding-bottom: 1.25em;
+    margin-bottom: 2.2em;
+    h4 {
+      position: absolute;
+      bottom: 0;
+      font: {
+        size: .9em;
+        weight: 400;
+      }
+      line-height: 1.2em;
+      margin: 0;
+      padding: 0 0 0 89px;
+      color: #C5C5C5;
+      @media (min-width: 62em) {
+        font-size: 1em;
+      }
+    }
+    ul {
+      list-style-type: none;
+      padding: 0 0 0 75px;
+      margin: -1.35rem 0 1em;
+      max-width: 32rem;
+      font-size: 1em;
+      @media (min-width: 62em) {
+        font-size: 1.1em;
+        padding: 0 0 0 81px;
+      }
+      &:last-child {
+        margin: {
+          bottom: 0;
+        }
+      }
+      &:first-of-type:after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background: #C5C5C5;
+        border: 2px solid #FFFFFF;
+        @include border-radius(50%);
+        position: absolute;
+        left: 54px;
+        top: 3px;
+        z-index: 2;
+      }
+      li {
+        margin-left: .5rem;
+        &:before {
+          content: '·';
+          margin-left: -.5rem;
+          padding-right: .3rem;
+        }
+        &:not(:first-child) {
+          margin-top: .5rem;
+        }
+        span.price {
+          color: mediumturquoise;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+}
+
+.usd {
+  display: inline;
+}
+
+svg {
+  border: 3px solid white;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+    
+    
+    
+    
+    
+    
 #name {
 	color: rgb(0,0,0);
 }
@@ -935,6 +1089,383 @@ h1{
 <section id="bio">
 <h2><a>My Brief Bio</a></h2>
 
+    
+  <div class="item">
+    <div id="timeline">
+      <div>
+        <section class="year">
+          <h3>2007</h3>
+          <section>
+            <ul>
+              <li>Satoshi Nakamoto began working on the Bitcoin concept.</li>
+            </ul>
+          </section>     
+        </section>
+        <section class="year">
+          <h3>2008</h3>
+          <section>
+            <h4>August</h4>
+            <ul>
+              <li>Neal Kin, Vladimir Oksman, and Charles Bry file an application for an encryption patent application.</li>
+              <li>Bitcoin.org was registered at <a href="https://anonymousspeech.com/">anonymousspeech.com</a>.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>October</h4>
+            <ul>
+              <li>Nakamoto describes the Bitcoin currency and solves the problem of double spending.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>November</h4>
+            <ul>
+              <li>The Bitcoin project is registered on <a href="https://sourceforge.net/">SourceForge.net</a>.</li>
+            </ul>
+          </section>
+        </section>
+        <section class="year">
+          <h3>2009</h3>
+          <section>
+            <h4>January</h4>
+            <ul>
+              <li>Block 0 is established.</li>
+              <li>Version 0.1 of Bitcoin is released.</li>
+              <li>The first Bitcoin transaction.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>October</h4>
+            <ul>
+              <li>An exchange rate is established.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>December</h4>
+            <ul>
+              <li>Version 0.2 is released.</li>
+              <li>The difficulty increases.</li>
+            </ul>
+          </section>
+        </section>
+        <section class="year">
+          <h3>2010</h3>
+          <section>
+            <h4>February</h4>
+            <ul>
+              <li>The Bitcoin Market is established as a Bitcoin currency exchange.</li>
+              <li>Encryption patent is published.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>May</h4>
+            <ul>
+              <li>The first real-world transaction using 10,000 BTC spent on pizza.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>July</h4>
+            <ul>
+              <li>Version 0.3 released.</li>
+              <li>In five days, the price grew 1000%, rising from <span class="price">$0.008</span> to  <span class="price">$0.08</span> for 1 bitcoin.</li>
+              <li>The MtGox Bitcoin currency exchange market is established.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>August</h4>
+            <ul>
+              <li>Exploit generates 184 billion Bitcoins.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>October</h4>
+            <ul>
+              <li>Financial task force issues warning.</li>
+              <li>The first public version of an OpenCL miner is released.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>November</h4>
+            <ul>
+              <li>Market cap exceeds $1 million USD.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>December</h4>
+            <ul>
+              <li>Bitcoind compiled for Nokia N900.</li>
+              <li>First mobile Bitcoin transaction.</li>
+              <li>Difficulty increases.</li>
+            </ul>
+          </section>
+        </section>
+        <section class="year">
+          <h3>2011</h3>
+          <section>
+            <h4>January</h4>
+            <ul>
+              <li>Silk Road opens for business.</li>
+              <li>25% of total Bitcoins generated.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>February</h4>
+            <ul>
+              <li>Bitcoin reaches parity with US dollar.</li>
+              <li><a href="https://weusecoins.com/">WeUseCoins.com</a> is created.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>March</h4>
+            <ul>
+              <li>Second largest decrease in difficulty.</li>
+              <li>Britcoin opens for trading.</li>
+              <li>Bitcoin Brasil opens.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>April</h4>
+            <ul>
+              <li>Bitcoin passes parity with Euro.</li>
+              <li>Difficulty surpasses 100,000.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>June</h4>
+            <ul>
+              <li>Bitcoin Market drops PayPal.</li>
+              <li>The largest percentage price decrease to-date became known as the Great Bubble of 2011. Top of bubble at <span class="price">$31.</span></li>
+              <li>WikiLeaks starts accepting Bitcoin.</li>
+              <li>Major breach of security at MtGox.</li>
+              <li>Difficulty passes 1 million.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>August</h4>
+            <ul>
+              <li>Bitcoin Conference and World Expo in New York City, NY.</li>
+              <li>P2Pool mines its first block.</li>
+              <li>Back-to-back drop in difficulty.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>September</h4>
+            <ul>
+              <li>Casascius coins mint physical Bitcoins.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>November</h4>
+            <ul>
+              <li>Bitcoin & Future Technology European Conference in Prague, Czech Republic.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>December</h4>
+            <ul>
+              <li><span class="price">$2</span> minimum price after the first price drop.</li>
+            </ul>
+          </section>
+        </section>
+        <section class="year">
+          <h3>2012</h3>
+          <section>
+            <h4>September</h4>
+            <ul>
+              <li>London 2012 Bitcoin Conference.</li>
+              <li>Bitcoin Foundation begins.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>December</h4>
+            <ul>
+              <li>Slowly rising for a year. Price at <span class="price">$13.</span></li>
+            </ul>
+          </section>
+        </section>
+        <section class="year">
+          <h3>2013</h3>
+          <section>
+            <h4>February</h4>
+            <ul>
+              <li>Version 0.8 released.</li>
+              <li>Bitcoin goes up to <span class="price">$30.</span></li>
+            </ul>
+          </section>
+          <section>
+            <h4>March</h4>
+            <ul>
+              <li>Bitcoin spikes to $74.90.</li>
+              <li>Market cap reaches $1 billion.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>April</h4>
+            <ul>
+              <li>Bitcoin surpasses <span class="price">$100.</span></li>
+              <li>Price hits an all-time high of <span class="price">$266.</span></li>
+              <li>Bitcoin Central is hacked.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>May</h4>
+            <ul>
+              <li>First Bitcoin ATM unveiled.</li>
+              <li>Bitcoin Central gets hacked again.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>October</h4>
+            <ul>
+              <li>FBI shuts down Silk Road.</li>
+              <li>Bitcoin price drops from <span class="price">$139</span> to <span class="price">$109.71</span> in less than three hours after Silk Road closure, recovers.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>November</h4>
+            <ul>
+              <li>Bitcoin price surges to a new all-time record of <span class="price">$1242.</span></li>
+            </ul>
+          </section>
+          <section>
+            <h4>December</h4>
+            <ul>
+              <li>Price crashed to <span class="price">$600</span>, rebounded to <span class="price">$1000</span>, crashed again to the <span class="price">$500</span> range. Stabilized in between.</li>
+              <li>China's Central Bank bans Bitcoin transactions.</li>
+              <li>The network exceeded 10 petahash/sec.</li>
+            </ul>
+          </section>
+        </section>
+        <section class="year">
+          <h3>2014</h3>
+          <section>
+            <h4>January</h4>
+            <ul>
+              <li>Price spiked to <span class="price">$1000</span>, then settled in the <span class="price">$800–$900</span>range.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>March</h4>
+            <ul>
+              <li>Version 0.9 released.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>June</h4>
+            <ul>
+              <li>The network exceeded 100 petahash/sec.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>December</h4>
+            <ul>
+              <li>Microsoft began to accept bitcoin to buy Xbox games and Windows apps.</li>
+            </ul>
+          </section>
+        </section>
+        <section class="year">
+          <h3>2015</h3>
+          <section>
+            <h4>February</h4>
+            <ul>
+              <li>Version 0.10 released.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>July</h4>
+            <ul>
+              <li>Version 0.11 released.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>November</h4>
+            <ul>
+              <li>2015 record high of <span class="price">$504.</span></li>
+            </ul>
+          </section>
+        </section>
+        <section class="year">
+          <h3>2016</h3>
+          <section>
+            <h4>January</h4>
+            <ul>
+              <li>Price at <span class="price">$1150</span> per bitcoin.</li>
+              <li>Price fell 30% in a week, reaching a multi-month low of <span class="price">$750.</span></li>
+              <li>The network exceeded 1 exahash/sec.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>February</h4>
+            <ul>
+              <li>Version 0.12 released.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>April</h4>
+            <ul>
+              <li>Steam started accepting bitcoin as payment.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>August</h4>
+            <ul>
+              <li>Version 0.13 released.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>September</h4>
+            <ul>
+              <li>There are 770 bitcoin ATMs worldwide.</li>
+            </ul>
+          </section>
+        </section>
+        <section class="year">
+          <h3>2017</h3>
+          <section>
+            <h4>March</h4>
+            <ul>
+              <li>Version 0.14 released.</li>
+              <li>The price of 1 bitcoin surpassed the spot price of an ounce of gold for the first time.</li>
+              <li>The number of GitHub projects related to bitcoin passed 10,000.</li>
+              <li>Price traded above <span class="price">$1290.</span></li>
+            </ul>
+          </section>
+          <section>
+            <h4>April</h4>
+            <ul>
+              <li>Japan Declares Bitcoin as Legel Tender</li>
+            </ul>
+          </section>
+          <section>
+            <h4>August</h4>
+            <ul>
+              <li>Bitcoin "splits" into Bitcoin (BTC) and Bitcoin Cash (BCH)</li>
+            </ul>
+          </section>
+          <section>
+            <h4>November</h4>
+            <ul>
+              <li>Bitcoin for the first time hit <span class="price">$10,000</span></li>
+            </ul>
+          </section>
+        </section>
+        <section class="year">
+          <h3>2019</h3>
+          <section>
+            <h4>Today</h4>
+            <ul>
+              <li>At the moment, one bitcoin cost:
+                <span class="price">
+                  <div class="usd"></div>.
+                </span>
+               </li>
+            </ul>
+          </section>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+    
 <table class="tables">
 <thead ><tr><th width="40%">
 Machine Learning Engineer - Computer Vision</th>
