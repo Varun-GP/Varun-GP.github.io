@@ -36,7 +36,7 @@
 body {
 	font-family: ui-monospace, Oxygen, Monaco, "Cascadia Mono", "Segoe UI Mono", Consolas, "Liberation Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro","Droid Sans Mono", "Lucida Console", "Courier New", monospace;
 	line-height: 1.5;
-	background-color: white;
+	background-color: black;
 }
 
 /* no text overflow */
@@ -81,6 +81,11 @@ h1 {
 }
    
 h2 {
+	border-top: solid 0.1rem;
+	padding-top: 2rem;
+}
+
+h6 {
 	border-top: solid 0.1rem;
 	padding-top: 2rem;
 }
@@ -133,18 +138,18 @@ table {
 footer {
 	padding-top: 5rem;
 	text-align: right;
-	color: rgb(0,0,0);
+	color: rgb(255, 253, 208);
 }
 footer a:hover, footer a:focus {
 	background-color: black;
 }
-    
+
 #name {
-	color: rgb(0,0,0);
+	color: rgb(255, 120, 100);
 }
 
 #about {
-	color: rgb(0,0,0);
+	color: rgb(255, 253, 208);
 }
 #about a:hover, #about a:focus {
 	background-color: rgb(150, 173, 252);
@@ -152,16 +157,16 @@ footer a:hover, footer a:focus {
 
 #publications {
 	#color: rgb(255, 192, 0);
-	color: rgb(0,0,0)
+	color: rgb(255, 253, 208)
 }
 #publications a:hover, #publications a:focus {
 	#background-color: rgb(255, 192, 0);
-	color: rgb(0,0,0)
+	color: rgb(255, 253, 208)
 }
 
 #interests {
 	#color: rgb(168, 242, 154);
-	color: rgb(0,0,0)
+	color: rgb(255, 253, 208)
 }
 #interests a:hover, #interests a:focus {
 	background-color: rgb(168, 242, 154);
@@ -172,7 +177,7 @@ footer a:hover, footer a:focus {
 
 #bio {
 	#color: rgb(150, 173, 252);
-	color: rgb(0,0,0)
+	color: rgb(255, 253, 208)
 }
 #bio a:hover, #bio a:focus  {
 	background-color: rgb(150, 173, 252);
@@ -355,10 +360,10 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	display: inline-block;
 }
 .section1 .sectionTitle, .section2 .sectionTitle {
-	color: rgb(0,0,0);
+	color: rgb(255, 253, 208);
 	font-size: 1.5rem;
 	text-decoration: none;
-	background-color: white;
+	background-color: black;
 }
 
 .section1 .sectionTitleRule, .section2 .sectionTitleRule {
@@ -376,21 +381,21 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	font-family: Oxygen;
 	font-size: 14px;
 	font-weight: 100;
-	color: rgb(0,0,0);
+	color: rgb(255, 253, 208);
 }
 .mainContent .section1 .section1Content span {
-	color: rgb(0,0,0);
+	color: rgb(255, 253, 208);
 	font-family: Oxygen;
 }
 .section2 .sectionContentTitle {
 	font-family: Oxygen;
-	color: rgb(0,0,0);
+	color: rgb(255, 253, 208);
 	font-size: 18px;
 	font-weight: 700;
 }
 .section2 .sectionContentSubTitle {
 	font-family: Oxygen;
-	color: rgb(0,0,0);
+	color: rgb(255, 253, 208);
 	font-size: 14px;
 	font-weight: 400;
 }
@@ -410,7 +415,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 }
 .externalResourcesNav .externalResources a {
 	font-family: Oxygen;
-	color: rgb(0,0,0);
+	color: rgb(255, 253, 208);
 	font-size: 14px;
 	font-weight: 400;
 	text-decoration: none;
@@ -423,10 +428,9 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
     text-align: justify-all;
     align-items: center;
     font-family: Oxygen;
-    background-color: rgb(0,0,0,0.7); 
-    border: 2px solid maroon;
+    background-color: rgb(255, 253, 208);
     cursor: pointer;
-    color: white
+    color: rgba(0,0,0,1.00);
 
 }
 
@@ -440,7 +444,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 
 .externalResourcesNav .dropdown a {
 	font-family: Oxygen;
-	color: rgb(0,0,0);
+	color: rgb(255, 253, 208);
 	font-size: 14px;
 	font-weight: 400;
 	text-decoration: none;
@@ -878,24 +882,24 @@ h1{
 <body data-new-gr-c-s-check-loaded="14.1011.0" data-gr-ext-installed="">
 <nav>
 	<p style="text-align:center">
-    <a href="#about" style="background-color:rgb(0,0,0,0.7); border: 2px solid maroon; font-size: 20px; color: white; text-decoration: none;">About</a>&ensp;
+    <a href="#about" style="background-color:rgb(150, 173, 252,0.2); font-size: 20px; color: white; text-decoration: none;">About</a>&ensp;
 
-    <a href="#bio" style="background-color:rgb(0,0,0,0.7); font-size: 20px; color: white; border: 2px solid maroon; text-decoration: none;">Bio</a>&ensp;
-    <a href="#projects" style="background-color:rgb(0,0,0,0.7); font-size: 20px; color: white; border: 2px solid maroon; text-decoration: none;">Projects</a>&ensp;
-    <a href="#publications" style="background-color:rgb(0,0,0,0.7); font-size: 20px; color: white; border: 2px solid maroon; text-decoration: none;">Publications</a>&ensp;
-    <a href="#cv" style="background-color:rgb(0,0,0,0.7); font-size: 20px; color: white; border: 2px solid maroon; text-decoration: none;">CV</a>
+    <a href="#bio" style="background-color:rgb(150, 173, 252,0.2); font-size: 20px; color: white; text-decoration: none;">Bio</a>&ensp;
+    <a href="#projects" style="background-color:rgb(150, 173, 252,0.2); font-size: 20px; color: white; text-decoration: none;">Projects</a>&ensp;
+    <a href="#publications" style="background-color:rgb(150, 173, 252,0.2); font-size: 20px; color: white; text-decoration: none;">Publications</a>&ensp;
+    <a href="#cv" style="background-color:rgb(150, 173, 252,0.2); font-size: 20px; color: white; text-decoration: none;">CV</a>
 </p>
 </nav>
 <section id="name">
-<h1><img src="./data/photo.png" style="border-radius:50%"  width= 100px height= auto max-width=100%>Varun Ganjigunte Prakash</h1>
+<h1><img src="./data/Varun.jpg" style="border-radius:50%"  width= 100px height= auto max-width=100%>Varun Ganjigunte Prakash</h1>
 
 
-<!-- project 2   <div class="alignRow">
+<div class="alignRow">
 <div class="imageColumnCenter">
 <img src="./data/location.png"  width= 40px height= auto max-width=100%>BENGALURU, INDIA
 </div>
 </div>
--->
+
 </section>
 
 <div class="alignRow">
@@ -928,110 +932,13 @@ h1{
 
 
 <h2><a>About Me</a></h2>
-<p>I am a computer vision engineer and robotics practitioner. I am inclined to work on ideas that have direct real-world impact, and I believe that working in the domains of computer vision and robotics is the perfect mixture for learning, failing, and then making ideas work through experience that brings real knowledge and maximum impact. Robots fascinate me, and I enjoy building them. Building goal-oriented machines that can sense, plan, act safely, and help people is my long-term life goal. In the near future, I plan to work on agricultural robotic systems to help our farmers, making intelligent machines as accessible and affordable as cell phones. I am self-driven and chasing my vision. I pitch in to help people from ideation to product realization. If it works, I am lucky to see their happy faces.</p>
-<p>I completed my undergrad at Sri Jayachamarajendra College of Engineering in Mysuru. I am passionate about solving problems at the intersection of computer vision and robotics. I have spent time working on computer vision and robotics challenges.</p>
+<p>Hi! I am a Computer Vision engineer and Robotics practitioner. I am gulping down the concepts to learn, to fail, and then to make ideas work by experience since I believe that practice brings real knowledge. Robots fascinate me, and I enjoy building them. Building goal-oriented machines that can sense, plan, act safely, and help people is my long-term life goal. I also like to work on agricultural robotic systems to help our farmers, making intelligent machines as accessible and affordable as cell phones. I am self-driven and chasing my vision. I pitch in to help projects and people. If it works, I am lucky to see their happy faces.</p>
+<p>I completed my undergrad at Sri Jayachamarajendra College of Engineering in Mysuru. I am passionate about solving problems at the intersection of Computer Vision and Robotics. I have spent time working on computer vision and robotics challenges.</p>
 </section>
 
 <section id="bio">
 <h2><a>My Brief Bio</a></h2>
-    
-<head>
-  <style>
-  .main-container{
-    position: relative;
-    width: 400px;
-}
-/*creating line for timeline*/
-.main-container::after{
-    content: '';
-    position: absolute;
-    width: 10px;
-    background-color: rgb(0,0,0,0.6);
-    top:0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-}
-/*Adjusting box of all content*/
-.text-wrapper{
-    padding: 10px 20px;
-    position: relative;
-    width:51%;
-    box-sizing: border-box;
-    margin: 20px 0;
-}
-.text-wrapper::after{
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    right: -7.5px;
-    background-color:rgb(0,0,0,1);
-    top:15px;
-    border-radius: 50%;
-    z-index: 1;
-}
-/*for left events*/
-.left{
-    left: 0;
-}
-/*for right events*/
-.right{
-    left:50%;
-}
-.right::after{
-    left:-7.5px;
-}
-/*content box colour padding 
-and radius for circular corner*/
-.content{
-    padding: 5px 5px 5px 5px;
-    background-color: white;
-    border-radius: 4px;
-}
-  </style>
-</head>
-<body>
- <!-- container which will contain our timeline -->
-    <div class="main-container">
-        <!-- event 1st of timeline -->
-        <div class="text-wrapper left">
-            <!-- all text content of timeline -->
-            <div class="content">
-               <h2 class="sectionContentTitle"> Machine Learning Engineer - Computer Vision </h2>
-                <p>03.2021 - present</p>
-                <p><a href="https://cogniable.tech/our-ai/" target="_blank">CogniAble</a></p>
-            </div>
-        </div>
-        <!-- event 1st of timeline -->
-        <div class="text-wrapper right">
-            <!-- all text content of timeline -->
-            <div class="content">
-               <h2 class="sectionContentTitle"> Engineer</h2>
-                <p>06.2018 - 03.2021</p>
-                <p><a target="_blank" href="https://www.ltts.com/">L&amp;T Technology Services Limited</a></p>
-            </div>
-        </div>
-        <!-- event 1st of timeline -->
-        <div class="text-wrapper left">
-            <!-- all text content of timeline -->
-            <div class="content">
-                <h2 class="sectionContentTitle"> Computer Vision Intern</h2>
-                <p>02.2018 - 05.2018</p>
-                <p><a target="_blank" href="https://www.skylarkdrones.com/">Skylark Drones</a></p>
-            </div>
-        </div>
-        <!-- event 1st of timeline -->
-        <div class="text-wrapper right">
-            <!-- all text content of timeline -->
-            <div class="content">
-               <h2 class="sectionContentTitle"> Embedded Systems Intern</h2>
-                <p>06.2016 - 12.2016</p>
-                <p><a target="_blank" href="https://logichive.in/">Logichive Solutions Private Limited</a></p>
-            </div>
-        </div>
-    </div>
-<!--
+
 <table class="tables">
 <thead ><tr><th width="40%">
 Machine Learning Engineer - Computer Vision</th>
@@ -1055,7 +962,7 @@ Embedded Systems Intern</th>
 </tr></thead>
 
 </tbody></table>
--->
+
 <p>
 
 <!-- content -->
@@ -1075,7 +982,7 @@ Embedded Systems Intern</th>
 	  
 	  <!-- project 1  -->
 	  	<div class="sectionContent"><br>
-	 		<img src="./data/robot_grasp.png" style="height: 90%; width: 90%; object-fit: contain" alt="">
+	 		<img src="./data/dummy.jpg" style="height: 50%; width: 50%; object-fit: contain" alt="">
 	  	</div>
 	  	<section class="section2Content">
       		<h2 class="sectionContentTitle"> 6–DOF pose estimation, planning and control </h2>
@@ -1100,21 +1007,12 @@ Embedded Systems Intern</th>
 	 		<img src="./data/cash_pic.jpg" style="height: 100%; width: 100%; object-fit: contain" alt="">
 	  	</div>
 	  	<section class="section2Content">
-      		<h2 class="sectionContentTitle"> Indian currency recognition application and food classifier application </h2>
-      		<h3 class="sectionContentSubTitle"><b><p></b></h3>
+      		<h2 class="sectionContentTitle"> Indian currency recognition and food classifier application </h2>
+      		<h3 class="sectionContentSubTitle"><b><p style="text-align:left;"> 1) Implemented a deep model for currency recognition and deployed it as an Android mobile application.<br>2) Developed a deep model that classifies and discovers related information about the 20 most common Indian food items, such as the nearest restaurants where they are available and the item’s cost.</p></h3>
 		  	<h3 class="sectionContentSubTitle">
 		  		Platform: TensorFlow, Android, Python
 		  	</h3>
     	</section>
-		<aside class="externalResourcesNav"> 
-		  <div class="dropdown"> <span>Details</span>
-			<div class="dropdown-content">
-			  <p style="text-align:left;"> 1) Demonstration of Cash Recognition mobile application for Indian currencies<br>
-			   2) A food classifier mobile application which identifies and discovers related information about the food such as nearest restaurants where it is available, the item cost etc., on the click of a photo. Developed for 20 most common Indian food items.</p>
-			</div>
-		  </div>
-
-		</aside>
 	  
 	  <br><br>
 
@@ -1166,7 +1064,7 @@ Embedded Systems Intern</th>
 
 	  <!-- project 5 -->
 	  	<div class="sectionContent"><br>
-	 		<img src="./data/delivery_robot.png" style="height: 50%; width: 50%; object-fit: contain" alt="">
+	 		<img src="./data/dummy.jpg" style="height: 50%; width: 50%; object-fit: contain" alt="">
 	  	</div>
 	  	<section class="section2Content">
       		<h2 class="sectionContentTitle"> Autonomous object delivery robot </h2>
@@ -1205,7 +1103,7 @@ Embedded Systems Intern</th>
 	<li><a>Deep Learning</a></li>
 </ul>
 </p><ul>
-	<li><a>Deep Reinforcement Learning</a></li>
+	<li><a>Multi-Task Deep Reinforcement Learning</a></li>
 </ul>
 </p><ul>
 	<li><a>Robotic System Design</a></li>
@@ -1240,3 +1138,4 @@ Embedded Systems Intern</th>
 <a class="nav-link js-scroll-trigger" onclick="window.open(this.href); return false;" href="./data/CV_Varun_November2022.pdf" onkeypress="window.open(this.href); return false;">[CV]</a>
 </div>
 </div>
+
