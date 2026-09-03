@@ -16,7 +16,6 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <a href="#" class="logo">Varun GP</a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#publications">Publications</a></li>
@@ -41,6 +40,11 @@
                             <polyline points="22,6 12,13 2,6"/>
                         </svg>
                     </a>
+                    <a href="https://scholar.google.com/citations?user=KGs0XzEAAAAJ&hl=en" target="_blank" class="social-link" aria-label="Google Scholar">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/>
+                        </svg>
+                    </a>
                     <a href="https://www.linkedin.com/in/varun-ganjigunte-prakash" target="_blank" class="social-link" aria-label="LinkedIn">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
@@ -51,11 +55,6 @@
                             <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                         </svg>
                     </a>
-                    <a href="https://scholar.google.com/citations?user=KGs0XzEAAAAJ&hl=en" target="_blank" class="social-link" aria-label="Google Scholar">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/>
-                        </svg>
-                    </a>
                     <a href="https://twitter.com/VarunGP2" target="_blank" class="social-link" aria-label="Twitter">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
@@ -64,7 +63,6 @@
                 </div>
                 <div class="cv-links">
                     <a href="cv/short/CV_Varun_Short.pdf" class="btn-link btn-primary">Short CV (PDF)</a>
-                    <a href="cv/master/CV_Varun_Master.pdf" class="btn-link">Full CV (PDF)</a>
                 </div>
             </div>
         </div>
@@ -154,86 +152,9 @@
     <!-- Projects Section -->
     <section id="projects" class="section">
         <div class="container">
-            <h2 class="section-title">Selected Projects</h2>
-
+            <h2 class="section-title">Selected Research & Projects</h2>
+            
             <div class="research-grid">
-                <div class="research-item">
-                    <h3>Clinical Assessment Image Parsing</h3>
-                    <p class="research-meta">Frontera, 2026</p>
-                    <p>Built and productionized multimodal document-AI pipelines using Gemini Vision, PDF rasterization, typed schemas, and gold-set regression tests, reaching 94&ndash;98% field accuracy and expanding support to ABLLS, AFLS, ADI-R, CARS-2, Intake, and RIAS-2.</p>
-                    <div class="tags">
-                        <span class="tag">Vision-Language Models</span>
-                        <span class="tag">Document AI</span>
-                        <span class="tag">Temporal</span>
-                    </div>
-                </div>
-
-                <div class="research-item">
-                    <h3>RF-DETR Fine-Tuning for Form Structure Detection</h3>
-                    <p class="research-meta">Frontera, 2026</p>
-                    <p>Fine-tuned RF-DETR on COCO-formatted assessment grids and integrated it into an ABLLS vision parser, reaching 0.772 AP and 0.936 AP50 on an unseen test split versus 0.583 AP and 0.846 AP50 for the strongest SSD baseline.</p>
-                    <div class="tags">
-                        <span class="tag">Object Detection</span>
-                        <span class="tag">RF-DETR</span>
-                        <span class="tag">PyTorch</span>
-                    </div>
-                </div>
-
-                <div class="research-item">
-                    <h3>Speaker Signature Registration and Verification</h3>
-                    <p class="research-meta">Frontera, 2025&ndash;2026</p>
-                    <p>Designed an end-to-end speaker-signature pipeline using Silero VAD, pyannote diarization, WeSpeaker embeddings, similarity-graph clustering, and human review, achieving 80.2% segment accuracy and 92.2% mean person-level accuracy in clinic evaluations.</p>
-                    <div class="tags">
-                        <span class="tag">Speaker Verification</span>
-                        <span class="tag">Diarization</span>
-                        <span class="tag">Audio ML</span>
-                    </div>
-                </div>
-
-                <div class="research-item">
-                    <h3>Multimodal Scream and Cry Detection</h3>
-                    <p class="research-meta">Frontera, 2025</p>
-                    <p>Productionized a multimodal behavior-recognition pipeline combining HumanOmni video-audio inference, YAMNet filtering, and Gemini validation; evaluated 59.1 hours across 65 therapy videos with documented test precision/F1 of 0.785/0.751.</p>
-                    <div class="tags">
-                        <span class="tag">Video Understanding</span>
-                        <span class="tag">Multimodal</span>
-                        <span class="tag">Sound Events</span>
-                    </div>
-                </div>
-
-                <div class="research-item">
-                    <h3>Maladaptive Behavior Model Research</h3>
-                    <p class="research-meta">Frontera, 2025&ndash;2026</p>
-                    <p>Led evaluation of multimodal and pose-based approaches for rare maladaptive behaviors in long therapy videos, comparing VideoMamba, YAMNet, HumanOmni, and RGB+pose pipelines, and identified a cascade removing 91.5% of normal chunks while retaining 73% of positives.</p>
-                    <div class="tags">
-                        <span class="tag">Action Recognition</span>
-                        <span class="tag">Pose Estimation</span>
-                        <span class="tag">Class Imbalance</span>
-                    </div>
-                </div>
-
-                <div class="research-item">
-                    <h3>Social Engagement Computer Vision</h3>
-                    <p class="research-meta">Frontera, 2024</p>
-                    <p>Contributed to the production social-engagement vision stack spanning person tracking, child/adult detection, and gaze modeling, improving social-gaze estimation by fusing gaze outputs with YOLOv4 head detection and WHENet head-pose estimation.</p>
-                    <div class="tags">
-                        <span class="tag">Gaze Estimation</span>
-                        <span class="tag">Head Pose</span>
-                        <span class="tag">Tracking</span>
-                    </div>
-                </div>
-
-                <div class="research-item">
-                    <h3>Computer Vision-Based Assessment of Autistic Children</h3>
-                    <p class="research-meta">CogniAble &middot; IEEE Access, 2023</p>
-                    <p>Developed deep learning models to analyze interactions, emotions, human pose, and life skills for assessment of children with autism spectrum disorder, enabling real-time behavioral analysis.</p>
-                    <div class="tags">
-                        <span class="tag">Computer Vision</span>
-                        <span class="tag">Healthcare AI</span>
-                        <span class="tag">Action Recognition</span>
-                    </div>
-                </div>
-
                 <div class="research-item">
                     <h3>Behavior-Aware Robot Navigation with Deep Reinforcement Learning</h3>
                     <p class="research-meta">Oct 2022 - Dec 2022</p>
@@ -246,6 +167,28 @@
                 </div>
 
                 <div class="research-item">
+                    <h3>Computer Vision-Based Assessment of Autistic Children</h3>
+                    <p class="research-meta">IEEE Access, 2023</p>
+                    <p>Developed deep learning models to analyze interactions, emotions, human pose, and life skills for assessment of children with autism spectrum disorder, enabling real-time behavioral analysis.</p>
+                    <div class="tags">
+                        <span class="tag">Computer Vision</span>
+                        <span class="tag">Healthcare AI</span>
+                        <span class="tag">Action Recognition</span>
+                    </div>
+                </div>
+
+                <div class="research-item">
+                    <h3>6-DOF Robotic Arm for Object Manipulation</h3>
+                    <p class="research-meta">Jun 2019 - Mar 2020</p>
+                    <p>Designed a custom 4-axis robotic arm and implemented pose estimation, planning, and control in ROS. Tested the manipulator for 3D object grasping with deep learning-based perception.</p>
+                    <div class="tags">
+                        <span class="tag">ROS</span>
+                        <span class="tag">Manipulation</span>
+                        <span class="tag">Inverse Kinematics</span>
+                    </div>
+                </div>
+
+                <div class="research-item">
                     <h3>Autonomous Service Robot (DEXTER)</h3>
                     <p class="research-meta">AIR 2019 (ACM ICPS)</p>
                     <p>Designed a mobile manipulator robot to assist elderly and differently-abled persons with daily tasks. The system used voice commands and computer vision for object search and delivery in home environments.</p>
@@ -253,6 +196,28 @@
                         <span class="tag">Mobile Manipulation</span>
                         <span class="tag">Voice Control</span>
                         <span class="tag">Assistive Robotics</span>
+                    </div>
+                </div>
+
+                <div class="research-item">
+                    <h3>NLP Models for Contract Data Mining</h3>
+                    <p class="research-meta">Colt Technology Services, 2023</p>
+                    <p>Implemented and integrated natural language processing models for contract data extraction and sentiment analysis, supporting business intelligence applications.</p>
+                    <div class="tags">
+                        <span class="tag">NLP</span>
+                        <span class="tag">Information Extraction</span>
+                        <span class="tag">Sentiment Analysis</span>
+                    </div>
+                </div>
+
+                <div class="research-item">
+                    <h3>Indian Currency Recognition System</h3>
+                    <p class="research-meta">2017</p>
+                    <p>Developed a deep learning model for Indian currency recognition and deployed it as an Android mobile application to assist visually impaired users.</p>
+                    <div class="tags">
+                        <span class="tag">Mobile App</span>
+                        <span class="tag">Image Classification</span>
+                        <span class="tag">Accessibility</span>
                     </div>
                 </div>
             </div>
@@ -272,10 +237,11 @@
                         <p class="company">Frontera | Full-time, Remote</p>
                         <p class="duration">Jan 2025 - Present</p>
                         <ul>
-                            <li>Multimodal document AI for clinical assessments (94-98% field accuracy)</li>
-                            <li>RF-DETR fine-tuning for form-structure detection (0.936 AP50)</li>
-                            <li>Speaker signature registration and verification (92.2% person-level accuracy)</li>
                             <li>Behavior recognition research across VideoMamba, HumanOmni, and pose pipelines</li>
+                            <li>Speaker signature registration and verification (92.2% person-level accuracy)</li>
+                            <li>Facilitated India-team stand-ups, code reviews, and ML design discussions; resolved blockers across time zones</li>
+                            <li>RF-DETR fine-tuning for form-structure detection (0.936 AP50)</li>
+                            <li>Multimodal document AI for clinical assessments (94-98% field accuracy)</li>
                         </ul>
                     </div>
                 </div>
@@ -427,8 +393,7 @@
                     <p><strong>Email:</strong> <a href="mailto:varun.ganjigunteprakash@gmail.com">varun.ganjigunteprakash@gmail.com</a></p>
                     <p><strong>Location:</strong> Bengaluru, Karnataka, India</p>
                     <p><strong>CV:</strong>
-                        <a href="cv/short/CV_Varun_Short.pdf">Short (2 pages)</a> ·
-                        <a href="cv/master/CV_Varun_Master.pdf">Full</a>
+                        <a href="cv/short/CV_Varun_Short.pdf">Short CV (PDF)</a>
                     </p>
                     <p><strong>Links:</strong>
                         <a href="https://www.linkedin.com/in/varun-ganjigunte-prakash" target="_blank">LinkedIn</a> ·
